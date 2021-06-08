@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js01 s2</title>
+    </head>
+    <body>
+        <h2>olá qual data você gostaria de calcular?</h2>
+        <h4 id = "dataHoje">hoje</h4>
+
+        <p>qual a data que vc gostaria de descobrir?</p>
+        <select id = "combo">
+            <option value="">Selecione</option>
+            <option value="aniversario">quanto tempo falta para o meu aniversario</option>
+            <option value="feriado">Quanto tempo falta para o proximo feriado</option>
+        </select>
+
+        <br/>
+
+        <input id="dataInformada" type="Date"/>
+        <button onclick="calcula()" >clica aqui</button>
+
+        <h3 id = "response"></h3>
+
+        <script src="js01.js"></script>
+    </body>
+</html>
